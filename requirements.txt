@@ -23,3 +23,5 @@ sse-starlette
 langchain-community
 bs4
 pypdf
+langgraph
+pandas
