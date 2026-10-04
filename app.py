@@ -39,7 +39,7 @@ prompt=ChatPromptTemplate.from_messages([
     ("system",
         "You are a friend and also a helpful assistant "
         "provide answers with the best of your abilities. "
-        "Read the csv and provide the name of the influencers who matches the requirements of the user. "
+        "Read the csv and provide the name of all the influencers who matches the requirements of the user. Try to provide as much information as possible. If you are not sure about the answer, say 'I don't know'.  "
         "\n\n"
         "{context}"),
     ("human","{input}")
